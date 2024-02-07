@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Protest+Strike&display=swap');
+
+body {
+    background-color: papayawhip;
+    font-size: (paragraph) 16px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.content {
+    margin: 10px 50px 20px;
+    /* background-color: red; */
+}
+
+.content img {
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.content h1 {
+
+    font-family: Arial, sans-serif;
+}
+
+.content p {
+    margin-top: 20px;
+}
+
+.content_Preparation {
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: papayawhip;
+}
+
+.content_Preparation h3 {
+    margin: 10px 0px 10px 20px;
+    padding-top: 20px;
+    color: rgb(155, 89, 182);
+}
+
+.content_Preparation li {
+    margin: 20px 0px 20px 40px;
+}
+
+.content_Preparation b {
+    color: rgb(52, 73, 94);
+    margin-left: 10px;
+}
+
+.Ingredients h1 {
+    color: rgb(192, 57, 43);
+}
+
+.Ingredients li {
+    margin-left: 20px;
+}
+
+.Ingredients p {
+    margin-left: 10px;
+}
+
+.Instructions h1 {
+    color: rgb(192, 57, 43);
+}
+
+.Step b {
+    font-size: 20px;
+    color: rgb(192, 57, 43);
+    padding-right: 5px;
+}
+
+.Step strong {
+    color: rgb(44, 62, 80);
+}
+
+.sub_step {
+    display: flex;
+    margin: 0px;
+}
+
+.sub_step b {
+    margin-top: 16px;
+    padding-right: 15px;
+}
+
+.nutrition h1 {
+    color: rgb(192, 57, 43);
+}
+
+.nutrition p {
+    color: rgb(44, 62, 80);
+}
+
+.content_nutrition {
+    display: flex;
+
+}
+
+.content_nutrition div {
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: rgb(44, 62, 80);
+}
+
+.content_nutrition div b {
+    color: rgb(192, 57, 43);
+}
+
+/* ขนาดมือถือ  */
+@media screen and (max-width: 380px) {
+
+    .content img {
+
+        margin: 0px;
+        border-radius: 0px;
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 0px;
+        margin: 0px auto;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .content {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding: 0px;
+        margin: 0;
+        padding: 0;
+
+        /* background-color: red; */
+    }
+
+    .main_content {
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .content h1 {
+        font-size: 30px;
+    }
+
+    .content p {
+
+        font-size: auto;
+    }
+
+
+}
